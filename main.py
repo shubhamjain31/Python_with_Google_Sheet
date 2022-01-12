@@ -44,5 +44,11 @@ for i in range(10):
 	# worksheet.insert_row(lt)
 # print(lt)
 
+# get particular cell value
 print(worksheet.get('A6'))
 print(worksheet.get('C5'))
+
+# update row
+# update_row = worksheet.update('B1', 'Bingo!')
+update_row = worksheet.update([['adam', 'demo', 'hjgsgfsdfsdj', 'uuriewyewrtywe', 72], 
+										['adam1', 'demo1', 'hjgsgfsdfsdj', 'uuriewyewrtywe', 72]])
